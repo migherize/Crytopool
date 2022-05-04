@@ -1,0 +1,14 @@
+.title, .subtitle {
+    color: rgb(246, 255, 0) !important;
+}
+
+
+.column {
+    color: black !important;
+    background-color: yellow;
+    margin-right: 30px;
+}
+
+.hero-body {
+    padding-top: 50px !important;
+}
