@@ -1,6 +1,13 @@
 html {
     color: #f5f5f5;
+    background-color: #363636;
 }
+
+.hero {
+  top: 0;
+  bottom: 0;
+}
+
 .hero-foot .container{
     border-top: 1px solid #424242;
     margin-left: 100px;
@@ -13,8 +20,11 @@ html {
   }
 
 .title, .subtitle {
-    color: rgb(246, 255, 0) !important;
+    /*color: rgb(246, 255, 0) !important;*/
     text-align: center;
+}
+ul li {
+    margin-bottom: 5px; 
 }
 
 .p {
@@ -36,11 +46,17 @@ html {
 i, .fab {
     margin: 5px;
 }
+
 #redes {
     text-align:center;
     padding: auto;
     margin-top: 20px;
 }
+
+#redes a {
+    margin-left: 10px;
+}
+
 /* diagonal*/
 .sec3
 {
@@ -104,3 +120,31 @@ i, .fab {
     z-index: 2;
 }
 /* carta */
+
+@media screen and (min-width: 0px) and (max-width: 1000px) {
+    #sec4:after {
+        position: static;
+    }
+    .sec4:after {
+        position: static;
+    }
+    .sec4:before {
+        position: static;
+    }
+}
+@media screen and (min-width: 0px) and (max-width: 800px) {
+    .copyright {
+        width:100%; 
+        position:fixed; 
+        bottom:0; 
+        z-index:-1;
+    }
+    .foo_mobile {
+        margin-bottom: 100px;
+        border: 1px solid #000;
+    }
+    .map_mobile iframe {
+        width: 128px;
+        height: 128px;
+    }
+}
